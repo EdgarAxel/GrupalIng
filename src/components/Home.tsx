@@ -57,7 +57,10 @@ const Home = ({ stations }) => {
       <div className='description'>
         El mejor buscador de precios de combustible de España.
       </div>
-
+      <h2>Estadísticas</h2>
+      <p data-testid="station-counter">
+        Gasolineras cargadas: {stations.length}
+      </p>
       <h2 className='resumen-nacional'>Resumen nacional de precios</h2>
       <table className='resumen-nacional'>
         <thead>
